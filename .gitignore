@@ -1,0 +1,37 @@
+# Go build outputs
+*.exe
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Build / distribution directories
+/bin/
+/build/
+/dist/
+
+# Coverage reports
+*.coverprofile
+*.cover.out
+coverage.*.html
+
+# Dependency vendoring (if used)
+vendor/
+
+# IDE / editor settings
+.idea/
+.vscode/
+*.swp
+*~
+
+# Logs
+*.log
+
+# Environment & secrets
+.env
+.env.*
+
+# OS/macOS/Windows system files
+.DS_Store
+Thumbs.db

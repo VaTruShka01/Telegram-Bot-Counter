@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(go build:*)",
+      "Bash(./telegram-bot.exe)",
+      "Bash(taskkill:*)",
+      "Bash(cmd:*)"
+    ],
+    "deny": []
+  }
+}
