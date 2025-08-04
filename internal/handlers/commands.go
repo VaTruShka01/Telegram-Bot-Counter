@@ -47,7 +47,7 @@ func (h *CommandHandler) SendTotals(bot *tgbotapi.BotAPI, chatID int64) {
 	
 	var totalsText string
 	totalsText += "📊 **EXPENSE SUMMARY**\n"
-	totalsText += "═══════════════════\n\n"
+	totalsText += "════════════\n\n"
 
 	// Balance section
 	var users []string
@@ -300,7 +300,7 @@ func (h *CommandHandler) MonthlyReset(bot *tgbotapi.BotAPI) {
 	
 	var monthlyText string
 	monthlyText += "📅 **MONTHLY EXPENSE REPORT**\n"
-	monthlyText += "════════════════════════════\n\n"
+	monthlyText += "════════════\n\n"
 
 	if totalTransactions == 0 {
 		monthlyText += "❌ No transactions this month\n"
